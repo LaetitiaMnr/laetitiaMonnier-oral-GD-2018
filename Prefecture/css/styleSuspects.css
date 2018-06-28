@@ -1,0 +1,27 @@
+article {
+	height: 500px;
+	margin: 0 15px 0 15px;
+	transition: 0.3s;
+}
+
+.jumbotron:hover {
+	background-color: #F4F4F4;
+	border: 0.5px solid #373737;
+	cursor: pointer;
+}
+
+h1 {
+	margin-top: -45px;
+	text-align: center;
+}
+
+h2 {
+	line-height: 50px;
+	font-size: x-large;
+}
+
+h2, article p {
+	display: inline;
+	margin-inline-start: auto;
+}
+

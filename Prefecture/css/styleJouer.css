@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #F4F4F4;
+ }
+
+ /* Menu */
+ nav {
+ 	background-color: rgba(255,255,255,0.7);
+ }
+
+ .disabled {
+ 	color: red;
+ 	cursor: context-menu;
+ }
+
+ /* Section Carousel */
+
+ .alert {
+ 	width: 30%;
+ 	margin: auto;
+ 	margin-top: 10px;
+ 	visibility: hidden;
+ }
+
+ div {
+	margin-top: 20px;
+	height: auto;
+}
+
+#imagePref h1, #imagePref p {
+	text-align: center;
+	color: #C0B283;
+}
+
+audio {
+	width: 100%;
+}
+
+.illustrations{
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.carousel-inner {
+	margin-top: -40px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: #373737;
+	border-radius: 20px;
+	background-size: 15px;
+}
+
+/* Section Réponses */
+
+#choixJoueur {
+	margin-top: 40px;
+}
+
+article {
+	width: 100%;
+	margin: 0 0 15px 0;
+	background-color: white;
+	border-radius: 20px;
+	border: 3px solid;
+	border-color: rgba(0,0,0,0);
+	transition: 0.3s;
+}
+
+article:hover {
+	background-color: #DCD0C0;
+	border: 3px solid #C0B283;
+	cursor: pointer;
+}
+
+article p:hover {
+	color: black;
+}
+
+
+/* Footer */
+
+footer {
+	margin-top: 50px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+footer p {
+	color: #C0B283;
+}
